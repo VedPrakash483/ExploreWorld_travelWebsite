@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploreWorld - Contact Us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow fixed-top">
+            <a class="navbar-brand font-weight-bold" href="#">
+                <img src="img/logo.png" alt="Logo" style="height: 40px; margin-right: 10px;"> <!-- Adjust height as needed -->
+                ExploreWorld
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+                <form class="form-inline ml-lg-3">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success ml-2" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center text-white py-5" style="background: url('hero-banner.jpg') no-repeat center center/cover;">
+        <div class="container">
+            <h1 class="display-4 font-weight-bold">Contact Us Anytime</h1>
+            <p class="lead">We're here to assist you with any inquiries or travel planning needs.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <main class="container mt-5 pt-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <p class="text-center">We'd love to hear from you! Fill out the form below or reach us directly through our contact details.</p>
+        <form>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="+91-98765-43210" required>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+            </div>
+        </form>
+
+        <hr class="my-5">
+
+        <h4 class="text-center">Our Contact Information</h4>
+        <p class="text-center mb-4">You can also reach us through the following contact methods:</p>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h5><strong>Email:</strong></h5>
+                <p>info@exploreworld.in</p>
+            </div>
+            <div class="col-md-4">
+                <h5><strong>Phone:</strong></h5>
+                <p>+91-98765-43210</p>
+            </div>
+            <div class="col-md-4">
+                <h5><strong>Address:</strong></h5>
+                <p>123 Travel Lane, VIT Vellore, Vellore,  Tamil Nadu 600042</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Map Section -->
+    <section class="map-section py-5">
+        <div class="container">
+            <h3 class="text-center mb-4">Our Location</h3>
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Vellore,%20Tamil%20Nadu&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h3>Connect with Us on Social Media</h3>
+            <p>Follow us for the latest travel deals and adventures!</p>
+            <div class="social-links">
+                <a href="#" class="btn btn-outline-primary btn-lg mx-2">Facebook</a>
+                <a href="#" class="btn btn-outline-info btn-lg mx-2">Twitter</a>
+                <a href="#" class="btn btn-outline-danger btn-lg mx-2">Instagram</a>
+                <a href="#" class="btn btn-outline-primary btn-lg mx-2">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h3>Stay Updated with Our Offers</h3>
+            <p>Subscribe to our newsletter for the latest tour packages and exclusive deals!</p>
+            <form class="form-inline justify-content-center">
+                <input type="email" class="form-control mb-2 mr-sm-2" placeholder="Enter your email">
+                <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- JS Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

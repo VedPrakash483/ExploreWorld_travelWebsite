@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploreWorld - Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to Custom CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> <!-- Google Fonts -->
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow fixed-top">
+    <a class="navbar-brand font-weight-bold" href="#">
+        <img src="img/logo.png" alt="Logo" style="height: 40px; margin-right: 10px;"> <!-- Adjust height as needed -->
+        ExploreWorld
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+        </ul>
+        <form class="form-inline ml-lg-3">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success ml-2" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center text-white py-5" style="background: url('hero-banner.jpg') no-repeat center center/cover;">
+        <div class="container">
+            <h1 class="display-4 text-white font-weight-bold">Journey to Explore the World</h1>
+            <p class="lead text-white mb-4">Discover amazing places and create unforgettable memories.</p>
+            <a href="#" class="btn btn-primary btn-lg mr-2">Learn More</a>
+            <a href="#" class="btn btn-success btn-lg">Book Now</a>
+        </div>
+    </section>
+    <!-- Main Content -->
+    <main class="container mt-5">
+        <h2 class="text-center mb-4">Featured Destinations</h2>
+        <div class="row">
+            <!-- Example Destination 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="Paris.jpg" class="card-img-top" alt="Destination 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Paris, France 🇫🇷</h5>
+                        <p class="card-text">Experience the romance of the City of Light, with its iconic Eiffel Tower, charming streets, and world-class cuisine. 🥖❤️</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Example Destination 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="japan.jpeg" class="card-img-top" alt="Destination 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Tokyo, Japan 🇯🇵</h5>
+                        <p class="card-text">Dive into the vibrant culture of Tokyo, where ancient traditions meet cutting-edge technology. 🍣🏯</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Example Destination 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="NY.jpg" class="card-img-top" alt="Destination 3">
+                    <div class="card-body">
+                        <h5 class="card-title">New York, USA 🇺🇸</h5>
+                        <p class="card-text">Explore the bustling streets of NYC, home to iconic landmarks, diverse neighborhoods, and endless entertainment. 🗽🌆</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h3>Stay Updated with Our Offers</h3>
+            <p>Subscribe to our newsletter for the latest tour packages and exclusive deals!</p>
+            <form class="form-inline justify-content-center">
+                <input type="email" class="form-control mb-2 mr-sm-2" placeholder="Enter your email">
+                <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
